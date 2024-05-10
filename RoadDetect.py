@@ -54,7 +54,7 @@ def identify_path(webcam, path_number):
     else:
         convexity = 1.0
 
-    if area > 100 and convexity > 0.4:  # adjust min_area and convexity values based on your track
+    if area > 100 and convexity > 0.4:  
       # get bounding rectangle
       x, y, w, h = cv2.boundingRect(cnt)
       print("path ", path_number, " bounded\n")
