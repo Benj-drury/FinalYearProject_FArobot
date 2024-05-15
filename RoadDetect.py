@@ -13,7 +13,7 @@ def identify_path(webcam, path_number):
       path_number: The integer representing the desired path (1-based indexing).
 
   Returns:
-      A tuple containing (x, y, w, h) of the bounding rectangle for the specified path, or None if not found. 
+      (x, y, w, h) of the bounding rectangle for the specified path, or None if not found. 
       Where (x, y) represent the coordinates of the rectangle and (w, h) represent the width and height of the rectangle.
   """
 
